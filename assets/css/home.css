@@ -1,0 +1,189 @@
+.home {
+  background: url(../images/fundo-home_superior.jpg) no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding-top: 60px;
+}
+
+.home .btn-video {
+  position: absolute;
+  bottom: 10%;
+  right: 15%;
+  width: 200px;
+}
+
+.studio {
+  background: url(../images/bg-1.jpg) no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.fachada {
+  background: url(../images/bg-2.jpg) no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.fachada .tt p {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: normal;
+  color: #595959;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.fachada .tt p span {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.implantacao {
+  background: url(../images/bg-3.jpg) no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.implantacao .tt p {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: normal;
+  color: #595959;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.implantacao .tt p span {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.lazer {
+  background: url(../images/bg-4.jpg) no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.lazer .tt p {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: normal;
+  color: #595959;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.lazer .tt p span {
+  font-family: 'Futura Std';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.tag_beach_tennis {
+  position: fixed;
+  top: 25%;
+  right: 4%;
+  z-index: 200;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .home {
+    background: url(../images/fundo-home_superior-mobile.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 20px;
+  }
+  .home .btn-video {
+    width: 130px;
+  }
+  .studio {
+    background: url(../images/bg-1-mobile.jpg) no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .fachada {
+    background: url(../images/bg-2-mobile.jpg) no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .fachada .tt p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .plantas {
+    background: url(../images/bg-3-mobile.jpg) no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .plantas .tt p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .lazer {
+    background: url(../images/bg-4-mobile.jpg) no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .lazer .tt p {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .implantacao {
+    background: url(../images/bg-3-mobile.jpg) no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .implantacao .tt p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .tag_beach_tennis {
+    top: 17%;
+    right: 1%;
+    width: 130px;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .tag_beach_tennis {
+    top: 17%;
+    right: 1%;
+    width: 130px;
+  }
+}
+
+/* Medium */
+/* Large */
+/*# sourceMappingURL=home.css.map */
