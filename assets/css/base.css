@@ -161,7 +161,7 @@ p {
   display: table;
   margin: 10% auto 0;
   width: 40%;
-  background-color: #dcdcdc;
+  background-color: #3e917a;
   border-radius: 10px;
   padding: 20px 10px;
   position: relative;
@@ -180,98 +180,19 @@ p {
 }
 
 .aviso div p {
-  font-family: 'Futura Std';
+  font-family: 'Inter';
+  font-weight: 300;
   font-style: normal;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 1.667;
-  color: #000000;
-  text-transform: uppercase;
-}
-
-.aviso div .cadastre-amigos {
-  background-color: #662c91;
-  font-family: 'Futura Std';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
   line-height: 1.667;
   color: #ffffff;
   text-transform: uppercase;
-  margin-top: 15px;
-}
-
-.float-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  position: fixed;
-  right: 0;
-  z-index: 999;
-  bottom: 90px;
-}
-
-.float-box a {
-  width: 47px;
-  overflow: hidden;
-  color: rgba(255, 255, 255, 0);
-  -webkit-transition: width 400ms, color 800ms;
-  transition: width 400ms, color 800ms;
-  height: 47px;
-  line-height: 27px;
-  display: block;
-  margin-bottom: 1px;
-  padding: 10px 15px;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 12px;
-  letter-spacing: 2px;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.float-box a:hover {
-  width: 220px;
-  color: white;
-}
-
-.float-box .chat {
-  background: url(../images/icone-chat.png) no-repeat right 10px center;
-  background-color: rgba(0, 0, 0, 0);
-  background-color: #aca727;
-}
-
-.float-box .car {
-  background: url(../images/icone-car.png) no-repeat right 10px center;
-  background-color: rgba(0, 0, 0, 0);
-  background-color: #aca727;
-}
-
-.float-box .mail {
-  background: url(../images/icone-mail.png) no-repeat right 10px center;
-  background-color: rgba(0, 0, 0, 0);
-  background-color: #aca727;
-}
-
-.float-box .whats {
-  background: url(../images/icone-zap.png) no-repeat right 10px center;
-  background-color: rgba(0, 0, 0, 0);
-  background-color: #aca727;
 }
 
 .cookies {
   position: fixed;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 9999;
   height: 100%;
   top: 0;
@@ -279,7 +200,7 @@ p {
 }
 
 .cookies .box {
-  background-color: #dcdcdc;
+  background-color: #3e917a;
   padding-top: 20px;
   padding-bottom: 20px;
   position: absolute;
@@ -288,10 +209,10 @@ p {
 }
 
 .cookies .box p {
-  font-family: 'Futura Std';
+  font-family: 'Inter';
+  font-weight: 300;
   font-style: normal;
-  font-weight: normal;
-  color: #000000;
+  color: #ffffff;
   font-size: 12px;
   line-height: 14px;
   margin-top: 7px;
@@ -299,16 +220,16 @@ p {
 
 .cookies .box p a {
   text-decoration: underline;
-  color: #000000;
+  color: #ffffff;
 }
 
 .cookies .box .btn_cookie {
-  font-family: 'Futura Std';
+  font-family: 'Antonio';
+  font-weight: bold;
   font-style: normal;
-  font-weight: 400;
   font-size: 19px;
   line-height: 19px;
-  color: #ffcc1c;
+  color: #ffffff;
   border: 0px solid transparent;
   border-radius: 50px;
   padding: 12px 30px;
@@ -316,55 +237,30 @@ p {
   margin-top: 7px;
   -webkit-box-shadow: none;
           box-shadow: none;
-  background: #662d91;
+  background-color: #f9b341;
   letter-spacing: 1px;
 }
 
-.modalFichaTecnica,
-.modalImplantacao,
-.modalLocalizacao,
-.modalVideo,
-.modalinstitucional,
-.modalVistaAerea {
+.myPopup {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.modalFichaTecnica .modal-lg,
-.modalImplantacao .modal-lg,
-.modalLocalizacao .modal-lg,
-.modalVideo .modal-lg,
-.modalinstitucional .modal-lg,
-.modalVistaAerea .modal-lg {
+.myPopup .modal-lg {
   width: 900px;
 }
 
-.modalFichaTecnica .modal-content,
-.modalImplantacao .modal-content,
-.modalLocalizacao .modal-content,
-.modalVideo .modal-content,
-.modalinstitucional .modal-content,
-.modalVistaAerea .modal-content {
+.myPopup .modal-content {
   background-color: transparent;
   border: 0px solid transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.modalFichaTecnica .modal-body,
-.modalImplantacao .modal-body,
-.modalLocalizacao .modal-body,
-.modalVideo .modal-body,
-.modalinstitucional .modal-body,
-.modalVistaAerea .modal-body {
+.myPopup .modal-body {
   padding: 0px;
 }
 
-.modalFichaTecnica .close,
-.modalImplantacao .close,
-.modalLocalizacao .close,
-.modalVideo .close,
-.modalinstitucional .close,
-.modalVistaAerea .close {
+.myPopup .close {
   font-size: 27px;
   color: #fff;
   text-shadow: none;
@@ -373,129 +269,10 @@ p {
   top: -20px;
   right: -20px;
   z-index: 100;
-}
-
-.modalTagBeachTennis {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modalTagBeachTennis .modal-content {
-  border: 0px solid transparent;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.modalTagBeachTennis .modal-body {
-  padding: 0px;
-  width: 100%;
-  position: relative;
-  float: left;
-  background: #ffffff;
-  border-radius: 35px;
-  border: 7px solid #ee7d00;
-}
-
-.modalTagBeachTennis .heade_tag {
-  padding-top: 20px;
-}
-
-.modalTagBeachTennis .heade_tag img {
-  margin-bottom: -24px;
-  z-index: 100;
-  position: relative;
-}
-
-.modalTagBeachTennis .box {
-  padding-top: 40px;
-  padding-bottom: 10px;
-  background: #63358b;
-  -webkit-border-bottom-right-radius: 28px;
-  -webkit-border-bottom-left-radius: 28px;
-  -moz-border-radius-bottomright: 28px;
-  -moz-border-radius-bottomleft: 28px;
-  border-bottom-right-radius: 28px;
-  border-bottom-left-radius: 28px;
-}
-
-.modalTagBeachTennis .close {
-  font-size: 27px;
-  color: #fff;
-  text-shadow: none;
-  opacity: 1;
-  position: absolute;
-  top: -20px;
-  right: -20px;
-  z-index: 100;
-}
-
-.modalTagBeachTennis .group-form .form-group {
-  padding-left: 2px;
-  padding-right: 2px;
-  margin-bottom: 5px;
-}
-
-.modalTagBeachTennis .group-form .form-control {
-  font-family: 'Futura Std';
-  font-style: normal;
-  font-weight: 400;
-  height: 47px;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #6f6f6e;
-  background-color: #ffffff;
-  border-radius: 35px;
-  border: 2px solid #ee7d00;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.modalTagBeachTennis .group-form .form-control::-webkit-input-placeholder {
-  color: #6f6f6e;
-}
-
-.modalTagBeachTennis .group-form .form-control:-ms-input-placeholder {
-  color: #6f6f6e;
-}
-
-.modalTagBeachTennis .group-form .form-control::-ms-input-placeholder {
-  color: #6f6f6e;
-}
-
-.modalTagBeachTennis .group-form .form-control::placeholder {
-  color: #6f6f6e;
-}
-
-.modalTagBeachTennis .group-form textarea {
-  padding-top: 20px !important;
-  height: 130px !important;
-}
-
-.modalTagBeachTennis .group-form .bbtn_enviar {
-  width: 100%;
-  font-family: 'HelveticaNeue';
-  padding: 8px 20px;
-  margin-bottom: 0;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.42857143;
-  border: 0px solid transparent;
-  border-radius: 20px;
-  color: #ffffff;
-  background-color: #ee7d00;
-  display: table;
-  margin: 5px auto 0;
-  text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
-  .modalFichaTecnica .modal-dialog,
-  .modalImplantacao .modal-dialog,
-  .modalLocalizacao .modal-dialog,
-  .modalVideo .modal-dialog,
-  .modalinstitucional .modal-dialog,
-  .modalTagBeachTennis .modal-dialog,
-  .modalVistaAerea .modal-dialog {
+  .myPopup .modal-dialog {
     margin: 4% auto 0;
   }
 }
@@ -519,58 +296,15 @@ p {
   .cookies .box .btn_cookie {
     margin-top: 20px;
   }
-  .modalFichaTecnica .modal-lg,
-  .modalImplantacao .modal-lg,
-  .modalLocalizacao .modal-lg,
-  .modalVideo .modal-lg,
-  .modalinstitucional .modal-lg,
-  .modalTagBeachTennis .modal-lg,
-  .modalVistaAerea .modal-lg {
+  .myPopup .modal-lg {
     width: 100%;
   }
-  .modalFichaTecnica .modal-dialog,
-  .modalImplantacao .modal-dialog,
-  .modalLocalizacao .modal-dialog,
-  .modalVideo .modal-dialog,
-  .modalinstitucional .modal-dialog,
-  .modalTagBeachTennis .modal-dialog,
-  .modalVistaAerea .modal-dialog {
+  .myPopup .modal-dialog {
     margin: 20% auto 0;
   }
-  .modalFichaTecnica .close,
-  .modalImplantacao .close,
-  .modalLocalizacao .close,
-  .modalVideo .close,
-  .modalinstitucional .close,
-  .modalTagBeachTennis .close,
-  .modalVistaAerea .close {
+  .myPopup .close {
     top: -30px;
     right: 5px;
-  }
-  .modalTagBeachTennis .heade_tag {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .modalTagBeachTennis .heade_tag img {
-    max-width: 80%;
-  }
-  .modalTagBeachTennis .tag_txt img {
-    max-width: 80%;
-  }
-  .modalTagBeachTennis .box {
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-  .modalTagBeachTennis form {
-    margin-top: 20px;
-  }
-  .modalTagBeachTennis .group-form .form-control {
-    height: 40px;
-    padding: 6px 12px;
-  }
-  .modalTagBeachTennis .group-form textarea {
-    padding-top: 20px !important;
-    height: 110px !important;
   }
 }
 /*# sourceMappingURL=base.css.map */

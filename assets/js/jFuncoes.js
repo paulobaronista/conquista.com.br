@@ -1,6 +1,6 @@
 $(document).on('ready', function () {
 
-    $(".glr-fachada").slick({
+    $(".glr-projeto").slick({
         dots: false,
         infinite: true,
         speed: 300,
@@ -8,17 +8,6 @@ $(document).on('ready', function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplaySpeed: 3100,
-        arrows: true,
-    });
-
-    $(".glr-implantacao").slick({
-        dots: false,
-        infinite: true,
-        speed: 300,
-        autoplay: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplaySpeed: 3200,
         arrows: true,
     });
 
@@ -32,6 +21,54 @@ $(document).on('ready', function () {
         autoplaySpeed: 3300,
         arrows: true,
     });
+
+    $('.glr-apartamento').slick({
+        dots: false,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 4,
+        slidesToScroll: 3,
+        arrows: true,
+        centerPadding: '100px',
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    centerMode: true,
+                    centerPadding: '0px',
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    centerMode: true,
+                    centerPadding: '0px',
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    centerMode: true,
+                    centerPadding: '0px',
+                    slidesToShow: 3
+                }
+            }
+        ]
+    });
+
+    $(".glr-plantas").slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        autoplay: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplaySpeed: 3100,
+        arrows: true,
+    });
+
 });
 
 $(document).ready(function () {
@@ -114,9 +151,11 @@ $(document).ready(function () {
         $("#aviso").hide();
         window.location.href = "https://conquistaarbore.com.br/"
     });
+
+    $('#myPopup').modal('show');
 });
 
-$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+$(document).on('click', '[data-toggle="lightbox"]', function (event) {
     event.preventDefault();
     $(this).ekkoLightbox();
 });

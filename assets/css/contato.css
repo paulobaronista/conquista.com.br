@@ -2,34 +2,25 @@
   width: 300px;
   position: fixed;
   bottom: 20px;
-  right: 2%;
-}
-
-.contato .container .box-0 {
-  background: -webkit-gradient(linear, left top, right top, from(#009e9a), to(#afcb36));
-  background: linear-gradient(to right, #009e9a, #afcb36);
-  padding: 8px;
-  border-radius: 30px;
-}
-
-.contato .container .box-1 {
-  background-color: #ffffff;
-  padding-top: 15px;
-  padding-bottom: 10px;
-  border-radius: 25px;
+  right: 0;
+  z-index: 200;
 }
 
 .contato .tt {
+  border-radius: 10px;
+  background-color: #3e917a;
   margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .contato .tt p {
-  font-family: 'Futura Std';
-  font-style: normal;
+  font-family: 'Antonio';
   font-weight: bold;
-  color: #263685;
-  font-size: 15px;
-  line-height: 19px;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .contato .group-form .form-group {
@@ -39,131 +30,111 @@
 }
 
 .contato .group-form .form-control {
-  font-family: 'Futura Std';
+  font-family: 'Antonio';
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
   height: 50px;
-  padding: 6px 12px 15px 0px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.42857143;
-  color: rgba(0, 0, 0, 0.4);
+  color: #87868a;
   background-color: #ffffff;
-  border-radius: 0px;
-  border-top: 0px solid transparent;
-  border-left: 0px solid transparent;
-  border-right: 0px solid transparent;
-  border-bottom: 1px solid #000000;
+  border: 1px solid #b1005c;
+  border-radius: 5px;
   -webkit-box-shadow: none;
           box-shadow: none;
   text-transform: uppercase;
 }
 
 .contato .group-form .form-control::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: #87868a;
 }
 
 .contato .group-form .form-control:-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: #87868a;
 }
 
 .contato .group-form .form-control::-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: #87868a;
 }
 
 .contato .group-form .form-control::placeholder {
-  color: rgba(0, 0, 0, 0.4);
+  color: #87868a;
 }
 
 .contato .group-form textarea {
-  height: 130px !important;
+  height: 110px !important;
 }
 
 .contato .group-form .btn_enviar {
-  width: 65%;
-  font-family: 'HelveticaNeue';
-  padding: 3px 0px;
+  width: 100%;
+  font-family: 'Antonio';
+  font-weight: bold;
+  font-style: normal;
+  padding: 10px 0px;
   margin-bottom: 0;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 20px;
   line-height: 1.42857143;
-  border: 3px solid #00adba;
+  border: 0px solid transparent;
   border-radius: 20px;
-  color: #263685;
-  background-color: #dedc00;
+  color: #ffffff;
+  background-color: #f9b341;
   display: table;
-  margin: 20px auto 0;
+  margin: 5px auto 0;
   text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: none;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.contato .group-form .btn_enviar:hover {
+  background-color: #fba924;
 }
 
 .redes {
-  width: 260px;
-  position: fixed;
-  bottom: 20px;
-  left: 6%;
-  z-index: 200;
+  margin: 10px auto 0;
+  display: table;
 }
 
 .redes a {
   display: inline-block;
-  margin: 0 3px;
+  margin: 0 10px;
 }
 
 /* Extra Small */
 @media (max-width: 767px) {
   .contato {
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .contato .container {
     width: 90%;
     position: relative;
-    top: 10px;
-    right: 0%;
-  }
-  .redes {
-    width: 100%;
     position: relative;
-    bottom: 0px;
-    left: 0%;
-  }
-  .redes a {
-    display: inline-block;
-    margin: 0 3px;
-  }
-  .redes .box {
-    display: table;
-    margin: 0 auto 20px;
+    right: 0;
+    bottom: 0;
   }
 }
 
 /* Small */
 @media (min-width: 768px) and (max-width: 991px) {
+  .contato {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   .contato .container {
     width: 500px;
     position: relative;
-    top: 10px;
-    right: 0%;
-    margin-bottom: 40px;
-  }
-  .redes {
-    width: 100%;
     position: relative;
-    bottom: 0px;
-    left: 0%;
-  }
-  .redes a {
-    display: inline-block;
-    margin: 0 3px;
-  }
-  .redes .box {
-    display: table;
-    margin: 0 auto 20px;
+    right: 0;
+    bottom: 0;
   }
 }
 
 /* Medium */
 @media (min-width: 992px) and (max-width: 1199px) {
   .contato .container {
-    right: 2%;
+    right: 0;
   }
 }
 

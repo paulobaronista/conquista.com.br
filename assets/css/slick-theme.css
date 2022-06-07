@@ -47,29 +47,143 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.slick-prev,
-.slick-prev:hover,
-.slick-prev:focus {
-    width: 23px;
-    height: 70px;
-    top: 47%;
-    left: 5%;
-    background: url(../images/seta-left.png) no-repeat;
+.glr-projeto .slick-prev,
+.glr-projeto .slick-prev:hover,
+.glr-projeto .slick-prev:focus {
+    width: 50px;
+    height: 50px;
+    top: 45%;
+    background: url(../images/seta-left-rosa.png) no-repeat;
     background-position: center center;
+    background-size: 100%;
     border: 0px solid none;
     z-index: 5;
 }
-.slick-next,
-.slick-next:hover,
-.slick-next:focus {
-    width: 23px;
-    height: 70px;
-    top: 47%;
-    right: 5%;
-    background: url(../images/seta-right.png) no-repeat;
+
+.glr-projeto .slick-next,
+.glr-projeto .slick-next:hover,
+.glr-projeto .slick-next:focus {
+    width: 50px;
+    height: 50px;
+    top: 45%;
+    background: url(../images/seta-right-rosa.png) no-repeat;
     background-position: center center;
+    background-size: 100%;
     border: 0px solid none;
     z-index: 5;
+}
+
+.glr-lazer .slick-prev,
+.glr-lazer .slick-prev:hover,
+.glr-lazer .slick-prev:focus {
+    width: 50px;
+    height: 50px;
+    top: 45%;
+    background: url(../images/seta-left-amarelo.png) no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    border: 0px solid none;
+    z-index: 5;
+}
+
+.glr-lazer .slick-next,
+.glr-lazer .slick-next:hover,
+.glr-lazer .slick-next:focus {
+    width: 50px;
+    height: 50px;
+    top: 45%;
+    background: url(../images/seta-right-amarelo.png) no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    border: 0px solid none;
+    z-index: 5;
+}
+
+.glr-apartamento .slick-prev,
+.glr-apartamento .slick-prev:hover,
+.glr-apartamento .slick-prev:focus {
+    width: 50px;
+    height: 50px;
+    top: 45%;
+    background: url(../images/seta-left-amarelo.png) no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    border: 0px solid none;
+    z-index: 5;
+}
+
+.glr-apartamento .slick-next,
+.glr-apartamento .slick-next:hover,
+.glr-apartamento .slick-next:focus {
+    width: 50px;
+    height: 50px;
+    top: 45%;
+    background: url(../images/seta-right-amarelo.png) no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    border: 0px solid none;
+    z-index: 5;
+}
+
+.glr-apartamento .slick-slide {
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.glr-apartamento .slick-list {
+    overflow: initial;
+}
+
+.glr-apartamento .slick-center {
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    z-index: 10;
+    margin-top: -60px;
+    transition: all 300ms ease;
+}
+
+.glr-apartamento .slick-center .off {
+    display: none;
+}
+
+.glr-apartamento .on {
+    display: none;
+}
+
+.glr-apartamento .slick-center .on {
+    display: block;
+}
+
+.glr-plantas .slick-prev,
+.glr-plantas .slick-prev:hover,
+.glr-plantas .slick-prev:focus {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    background: url(../images/seta-left-verde.png) no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    border: 0px solid none;
+    z-index: 5;
+    left: -3%;
+}
+
+.glr-plantas .slick-next,
+.glr-plantas .slick-next:hover,
+.glr-plantas .slick-next:focus {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    background: url(../images/seta-right-verde.png) no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    border: 0px solid none;
+    z-index: 5;
+    right: -3%;
 }
 
 /* Dots */
@@ -85,7 +199,9 @@
 }
 .slick-dots li {
     position: relative;
+
     display: inline-block;
+
     width: 20px;
     height: 20px;
     margin: 0 5px;
@@ -96,11 +212,15 @@
 .slick-dots li button {
     font-size: 0;
     line-height: 0;
+
     display: block;
+
     width: 20px;
     height: 20px;
     padding: 5px;
+
     cursor: pointer;
+
     color: transparent;
     border: 0;
     outline: none;
@@ -141,21 +261,50 @@
 }
 
 /* Extra Small */
-
 @media (max-width: 767px) {
-    .slick-prev,
-    .slick-prev:hover,
-    .slick-prev:focus {
-        width: 23px;
-        height: 43px;
+    .glr-projeto .slick-prev,
+    .glr-projeto .slick-prev:hover,
+    .glr-projeto .slick-prev:focus,
+    .glr-lazer .slick-prev,
+    .glr-lazer .slick-prev:hover,
+    .glr-lazer .slick-prev:focus,
+    .glr-apartamento .slick-prev,
+    .glr-apartamento .slick-prev:hover,
+    .glr-apartamento .slick-prev:focus,
+    .glr-plantas .slick-prev,
+    .glr-plantas .slick-prev:hover,
+    .glr-plantas .slick-prev:focus {
+        width: 28px;
+        height: 28px;
         left: 5%;
+        top: 50%;
     }
-    .slick-next,
-    .slick-next:hover,
-    .slick-next:focus {
-        width: 23px;
-        height: 43px;
+
+    .glr-projeto .slick-next,
+    .glr-projeto .slick-next:hover,
+    .glr-projeto .slick-next:focus,
+    .glr-lazer .slick-next,
+    .glr-lazer .slick-next:hover,
+    .glr-lazer .slick-next:focus,
+    .glr-apartamento .slick-next,
+    .glr-apartamento .slick-next:hover,
+    .glr-apartamento .slick-next:focus,
+    .glr-plantas .slick-next,
+    .glr-plantas .slick-next:hover,
+    .glr-plantas .slick-next:focus {
+        width: 28px;
+        height: 28px;
         right: 5%;
+        top: 50%;
+    }
+
+    .glr-apartamento .slick-center {
+        -moz-transform: scale(2.2);
+        -ms-transform: scale(2.2);
+        -o-transform: scale(2.2);
+        -webkit-transform: scale(2.2);
+        transform: scale(2.2);
+        margin-top: -10px;
     }
 }
 
@@ -164,5 +313,115 @@
         display: none !important;
     }
 }
+
 /* Small */
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+    .glr-projeto .slick-prev,
+    .glr-projeto .slick-prev:hover,
+    .glr-projeto .slick-prev:focus,
+    .glr-lazer .slick-prev,
+    .glr-lazer .slick-prev:hover,
+    .glr-lazer .slick-prev:focus,
+    .glr-apartamento .slick-prev,
+    .glr-apartamento .slick-prev:hover,
+    .glr-apartamento .slick-prev:focus,
+    .glr-plantas .slick-prev,
+    .glr-plantas .slick-prev:hover,
+    .glr-plantas .slick-prev:focus {
+        width: 38px;
+        height: 38px;
+        left: 5%;
+        top: 50%;
+    }
+
+    .glr-projeto .slick-next,
+    .glr-projeto .slick-next:hover,
+    .glr-projeto .slick-next:focus,
+    .glr-lazer .slick-next,
+    .glr-lazer .slick-next:hover,
+    .glr-lazer .slick-next:focus,
+    .glr-apartamento .slick-next,
+    .glr-apartamento .slick-next:hover,
+    .glr-apartamento .slick-next:focus,
+    .glr-plantas .slick-next,
+    .glr-plantas .slick-next:hover,
+    .glr-plantas .slick-next:focus {
+        width: 38px;
+        height: 38px;
+        right: 5%;
+        top: 50%;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .glr-projeto .slick-prev,
+    .glr-projeto .slick-prev:hover,
+    .glr-projeto .slick-prev:focus,
+    .glr-lazer .slick-prev,
+    .glr-lazer .slick-prev:hover,
+    .glr-lazer .slick-prev:focus {
+        width: 45px;
+        height: 45px;
+        left: 7%;
+    }
+
+    .glr-projeto .slick-next,
+    .glr-projeto .slick-next:hover,
+    .glr-projeto .slick-next:focus,
+    .glr-lazer .slick-next,
+    .glr-lazer .slick-next:hover,
+    .glr-lazer .slick-next:focus {
+        width: 45px;
+        height: 45px;
+        right: 31%;
+    }
+
+    .glr-apartamento .slick-prev,
+    .glr-apartamento .slick-prev:hover,
+    .glr-apartamento .slick-prev:focus {
+        width: 45px;
+        height: 45px;
+        left: 46%;
+    }
+
+    .glr-apartamento .slick-next,
+    .glr-apartamento .slick-next:hover,
+    .glr-apartamento .slick-next:focus {
+        width: 45px;
+        height: 45px;
+        right: 24.5%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .glr-projeto .slick-prev,
+    .glr-projeto .slick-prev:hover,
+    .glr-projeto .slick-prev:focus,
+    .glr-lazer .slick-prev,
+    .glr-lazer .slick-prev:hover,
+    .glr-lazer .slick-prev:focus {
+        left: 9%;
+    }
+
+    .glr-projeto .slick-next,
+    .glr-projeto .slick-next:hover,
+    .glr-projeto .slick-next:focus,
+    .glr-lazer .slick-next,
+    .glr-lazer .slick-next:hover,
+    .glr-lazer .slick-next:focus {
+        right: 23%;
+    }
+
+    .glr-apartamento .slick-prev,
+    .glr-apartamento .slick-prev:hover,
+    .glr-apartamento .slick-prev:focus {
+        left: 46%;
+    }
+
+    .glr-apartamento .slick-next,
+    .glr-apartamento .slick-next:hover,
+    .glr-apartamento .slick-next:focus {
+        right: 24.5%;
+    }
+}

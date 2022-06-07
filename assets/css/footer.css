@@ -1,26 +1,22 @@
 footer {
-  background: url(../images/bg-5.jpg) no-repeat;
-  background-position: center top;
-  background-size: cover;
-  padding-top: 30px;
-  padding-bottom: 70px;
+  background-color: #106733;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+footer .tt {
+  margin-bottom: 20px;
 }
 
 footer .tt p {
-  font-family: 'Futura Std';
-  font-style: normal;
-  font-weight: normal;
-  color: #595959;
+  font-family: 'Antonio';
+  color: #ffffff;
   text-transform: uppercase;
-  font-size: 25px;
-  line-height: 25px;
-  margin-bottom: 10px;
-}
-
-footer .tt p span {
-  font-family: 'Futura Std';
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: bold;
   font-style: normal;
-  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 footer .texto-legal {
@@ -28,95 +24,13 @@ footer .texto-legal {
 }
 
 footer .texto-legal p {
-  font-family: 'Futura Std';
+  font-family: 'Inter';
+  font-weight: 300;
   font-style: normal;
-  font-weight: normal;
-  color: #1d1d1b;
+  color: #ffffff;
   font-size: 11px;
   line-height: 14px;
-  text-align: left;
-}
-
-footer .local {
-  display: block;
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-
-footer .local .showroom {
-  border-bottom: solid 1px #263685;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-
-footer .local .showroom p {
-  font-family: 'Futura Std';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 16px;
-  text-transform: uppercase;
-  color: #e30613;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-footer .local .showroom span {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 10px;
-}
-
-footer .local .col-g {
-  display: inline-table;
-}
-
-footer .local .col-g p {
-  font-family: 'Futura Std';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 16px;
-  text-transform: uppercase;
-}
-
-footer .local .col-g .col-g-a p {
-  font-weight: 400;
-  color: #595959;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-footer .local .col-g .col-g-b p {
-  color: #27348b;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-footer .local .col-g .col-g-b span {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 5px;
-}
-
-footer .local .col-g .col-g-c p {
-  font-weight: 400;
-  color: #595959;
-  padding-left: 5px;
-  margin-top: 5px;
-}
-
-footer .btn-institucional {
-  margin-bottom: 30px;
-}
-
-footer .vista-aerea {
-  position: absolute;
-  bottom: 27px;
-  width: 350px;
-  display: block;
-  left: 40%;
-  margin-left: -175px;
+  text-align: center;
 }
 
 footer .navbar-nav li {
@@ -127,9 +41,9 @@ footer .navbar-nav li {
 footer .navbar-nav li > a {
   padding-top: 0px;
   padding-bottom: 0px;
-  font-family: 'Futura Std';
+  font-family: 'Inter';
+  font-weight: 300;
   font-style: normal;
-  font-weight: 500;
   color: #1d1d1b;
   font-size: 10px;
   line-height: 10px;
@@ -154,40 +68,13 @@ footer .navbar-nav li:last-child a {
 /* Extra Small */
 @media (max-width: 767px) {
   footer {
-    background: url(../images/bg-5-mobile.jpg) no-repeat;
-    background-position: center top;
-    background-size: cover;
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
   footer .tt p {
     font-size: 20px;
     line-height: 25px;
     margin-bottom: 10px;
-  }
-  footer .local {
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  footer .local .col-g p {
-    font-size: 16px;
-    line-height: 22px;
-  }
-  footer .local .col-g .col-g-b p {
-    padding-left: 0px;
-  }
-  footer .local .col-g .col-g-c p {
-    padding-left: 0px;
-    margin-top: 0;
-  }
-  footer .vista-aerea {
-    position: relative;
-    bottom: 0px;
-    width: 70%;
-    display: block;
-    left: 0%;
-    margin-left: 0px;
-    margin: 0px auto;
   }
   footer .navbar-nav {
     margin-top: 0;
@@ -198,12 +85,6 @@ footer .navbar-nav li:last-child a {
 }
 
 /* Small */
-@media (min-width: 768px) and (max-width: 991px) {
-  footer .local {
-    text-align: center;
-  }
-}
-
 /* Medium */
 /* Large */
 /*# sourceMappingURL=footer.css.map */
