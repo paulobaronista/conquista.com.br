@@ -152,7 +152,7 @@ $(document).ready(function () {
         window.location.href = "https://conquistaarbore.com.br/"
     });
 
-    $('#myPopup').modal('show');
+    // $('#myPopup').modal('show');
 });
 
 $(document).on('click', '[data-toggle="lightbox"]', function (event) {

@@ -19,6 +19,7 @@
                         <li><a class="scrollink" href="#plantas">PLANTAS</a></li>
                         <li><a class="scrollink" href="#implantacao">IMPLANTAÇÃO</a></li>
                         <li><a class="scrollink" href="#localizacao">LOCALIZAÇÃO</a></li>
+                        <li><a class="scrollink visible-xs visible-sm" href="#contato">FALE CONOSCO</a></li>
                     </ul>
                 </div>
             </div>
@@ -31,6 +32,7 @@
             <div>
                 <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/home.jpg" alt="Conquista Arbore">
                 <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/home-mobile.jpg" alt="Conquista Arbore">
+                <a class="cta scrollink visible-xs" href="#contato">SAIBA MAIS</a>
             </div>
         </div>
     </div>
@@ -228,7 +230,7 @@
         </a>
     </div>
 </div>
-<div class="container-fluid padding-off contato">
+<!-- <div id="contato" class="container-fluid padding-off contato">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -240,34 +242,16 @@
                     </p>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
-                    <form method="post" role="form" id="hitssantacatarina" action="<?php echo base_url("contato") ?>">
-                        <div class="group-form">
-                            <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                                <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="NOME:" />
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                                <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="E-MAIL:" />
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                                <input id="telefone" class="phone form-control" type="tel" name="phone" required="required" placeholder="TELEFONE:" />
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                                <textarea id="form-mensagem" class="msg form-control" cols="30" rows="5" name="mss" placeholder="ESCREVA SUA MENSAGEM...">ESCREVA SUA MENSAGEM...</textarea>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                                <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">ENVIAR</button>
-                            </div>
-                        </div>
-                    </form>
-                    <?php
-                    if (isset($email_enviado))
-                        echo $email_enviado;
-                    ?>
+                    <div role="main" id="conquista-arbore-e04d852b7f1e753e4d09"></div>
+                    <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script>
+                    <script type="text/javascript">
+                        new RDStationForms('conquista-arbore-e04d852b7f1e753e4d09', 'UA-84870975-14').createForm();
+                    </script>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <footer>
     <div class="container">
         <div class="row">
@@ -287,7 +271,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 padding-off texto-legal">
                     <p>
-                        O empreendimento só será comercializado após a expedição do RI. * Todas as perspectivas e imagens são meramente ilustrativas, podendo sofrer alterações no desenvolvimento do projeto executivo. As áreas comuns serão entregues equipadas e decoradas, conforme memorial descritivo. Planta do apartamento, com sugestão de decoração, os móveis e objetos não fazem parte do contrato, mais informações consulte o memorial descritivo. Informações no plantão de vendas.O empreendimento só será comercializado após a expedição do RI. * Todas as perspectivas e imagens são meramente ilustrativas, podendo sofrer alterações no desenvolvimento do projeto executivo. As áreas comuns serão entregues equipadas e decoradas, conforme memorial descritivo. Planta do apartamento, com sugestão de decoração, os móveis e objetos não fazem parte do contrato, mais informações consulte o memorial descritivo. Informações no plantão de vendas.
+                        O empreendimento só será comercializado após a expedição do RI. * Todas as perspectivas e imagens são meramente ilustrativas, podendo sofrer alterações no desenvolvimento do projeto executivo. As áreas comuns serão entregues equipadas e decoradas, conforme memorial descritivo. Planta do apartamento, com sugestão de decoração, os móveis e objetos não fazem parte do contrato, mais informações consulte o memorial descritivo. Informações no plantão de vendas.
                     </p>
                 </div>
             </div>
@@ -296,7 +280,7 @@
 </footer>
 
 <!-- Modal -->
-<div class="modal fade myPopup" id="myPopup" tabindex="-1" role="dialog" aria-labelledby="myPopupLabel">
+<!-- <div class="modal fade myPopup" id="myPopup" tabindex="-1" role="dialog" aria-labelledby="myPopupLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -305,9 +289,9 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
-<div id="cookies" class="cookies">
+<!-- <div id="cookies" class="cookies">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
         <div class="col-xs-12 col-sm-9 col-md-9">
             <p>
@@ -318,4 +302,11 @@
             <a href="#" class="btn_cookie btn center-block">Aceito</a>
         </div>
     </div>
-</div>
+</div> -->
+
+<script>
+        (function(w,d,u){
+                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+        })(window,document,'https://cdn.bitrix24.com/b19068183/crm/site_button/loader_55_q1rcg3.js');
+</script>

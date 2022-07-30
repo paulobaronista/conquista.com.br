@@ -760,8 +760,8 @@ p {
   }
   .menu .nav > li > a,
   .menu.active .nav > li > a {
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 8px;
+    line-height: 8px;
   }
   .menu .nav > li > a::before,
   .menu.active .nav > li > a::before {
@@ -772,6 +772,37 @@ p {
 
 /* Medium */
 /* Large */
+.home .cta {
+  width: 160px;
+  font-family: 'Antonio';
+  font-weight: bold;
+  font-style: normal;
+  padding: 4px 0px 3px;
+  font-size: 17px;
+  line-height: 1.42857143;
+  border: 0px solid transparent;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #f9b341;
+  display: table;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: none;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  position: absolute;
+  bottom: 5px;
+  text-align: center;
+  left: 50%;
+  margin-left: -80px;
+  text-decoration: none;
+}
+
+.home .cta:hover {
+  background-color: #fba924;
+  text-decoration: none;
+}
+
 .projeto .galeria,
 .lazer .galeria {
   margin-bottom: -6px;
@@ -956,11 +987,15 @@ p {
 }
 
 .contato .tt {
-  border-radius: 10px;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   background-color: #3e917a;
-  margin-bottom: 10px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 .contato .tt p {

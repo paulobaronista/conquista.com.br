@@ -16,7 +16,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?= base_url(); ?>assets/images/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="<?= base_url(); ?>assets/images/apple-touch-icon-57-precomposed.png">
     <link rel="image_src" href="<?= base_url(); ?>assets/images/compartilhamento.png" />
-    <meta name="theme-color" content="#dcdcdc" />
+    <meta name="theme-color" content="#39afbd" />
     <!-- property (faz funcionar no linkedin) -->
     <meta property="og:title" content="Conquista Arbore - seu sonho ao seu alcance!" />
     <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />

@@ -135,8 +135,8 @@
   }
   .menu .nav > li > a,
   .menu.active .nav > li > a {
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 8px;
+    line-height: 8px;
   }
   .menu .nav > li > a::before,
   .menu.active .nav > li > a::before {

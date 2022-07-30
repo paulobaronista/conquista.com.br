@@ -287,7 +287,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 padding-off texto-legal">
                     <p>
-                        O empreendimento só será comercializado após a expedição do RI. * Todas as perspectivas e imagens são meramente ilustrativas, podendo sofrer alterações no desenvolvimento do projeto executivo. As áreas comuns serão entregues equipadas e decoradas, conforme memorial descritivo. Planta do apartamento, com sugestão de decoração, os móveis e objetos não fazem parte do contrato, mais informações consulte o memorial descritivo. Informações no plantão de vendas.O empreendimento só será comercializado após a expedição do RI. * Todas as perspectivas e imagens são meramente ilustrativas, podendo sofrer alterações no desenvolvimento do projeto executivo. As áreas comuns serão entregues equipadas e decoradas, conforme memorial descritivo. Planta do apartamento, com sugestão de decoração, os móveis e objetos não fazem parte do contrato, mais informações consulte o memorial descritivo. Informações no plantão de vendas.
+                        O empreendimento só será comercializado após a expedição do RI. * Todas as perspectivas e imagens são meramente ilustrativas, podendo sofrer alterações no desenvolvimento do projeto executivo. As áreas comuns serão entregues equipadas e decoradas, conforme memorial descritivo. Planta do apartamento, com sugestão de decoração, os móveis e objetos não fazem parte do contrato, mais informações consulte o memorial descritivo. Informações no plantão de vendas.
                     </p>
                 </div>
             </div>
